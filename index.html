@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        function coffee()
+        {
+            console.log("Put 1 spoon of coffee");
+            console.log("Put 1 spoon of sugar");
+            console.log("Boil water");
+            console.log("Put water into cup");
+            console.log("Put 50 cc of milk");
+        }
+
+        function coffeeNew()
+        {
+            // pelet is ID of paragraph
+            // content of paragraph is:
+            // pelet.innerHTML
+            // We use += for adding text to paragraph
+            pelet.innerHTML += "Put 1 spoon of coffee<br>";
+            pelet.innerHTML += "Put 1 spoon of sugar<br>";
+            pelet.innerHTML += "Boil water<br>"
+            pelet.innerHTML += "Put water into cup<br>";
+            pelet.innerHTML += "Put 50 cc of milk<br>";
+        }
+
+
+
+    </script>
+</head>
+<body>
+<button onclick="coffeeNew()">PREPARE COFFEE</button>
+<p id="pelet"></p>
+</body>
+</html>
